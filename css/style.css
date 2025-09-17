@@ -10,7 +10,7 @@ html, body {
 
 .box {
   background-image: url("/images/stardust.png");
-  background-repeat: round;
+  background-repeat: no repeat;
   background-position: center;
 }
 
