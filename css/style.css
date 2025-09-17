@@ -9,7 +9,7 @@ html, body {
   font-style: normal;
 }
 .box {
-  background-image: url("images/solar.gif");
+  background-image: url("images/stardust.png");
   background-repeat: round;
   background-position: center;
 }
@@ -38,7 +38,7 @@ h1 {
 
 #planets th {
   background: #444;
-  color: yellow;
+  color: red;
   text-align: left;
 }
 
