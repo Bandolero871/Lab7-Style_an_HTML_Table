@@ -1,4 +1,69 @@
-td, th {
-	border: 1px solid;
-  }
-  
+.box {
+  background-image: url("images/solar.gif");
+  background-repeat: round;
+  background-position: center;
+}
+
+/* File: css/style.css — simplified colors */
+
+html, body {
+.federo-regular {
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+h1 {
+  text-align: center;
+  margin: 32px 16px 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+#planets {
+  width: 90%;
+  margin: 0 auto 48px;
+  border-collapse: collapse;
+  background: #222;
+  border: 1px solid #555;
+}
+
+#planets th,
+#planets td {
+  padding: 14px 16px;
+  border: 1px solid #555;
+  vertical-align: middle;
+}
+
+#planets th {
+  background: #444;
+  color: yellow;
+  text-align: left;
+}
+
+#planets tr:nth-child(even) td {
+  background: #333;
+}
+
+#planets tr:hover td {
+  background: #555;
+}
+
+#planets img {
+  display: block;
+  width: 184px;   /* doubled from original 92px */
+  height: 184px;
+  object-fit: contain;
+  margin: 4px auto;
+}
+
+@media (max-width: 720px) {
+  #planets th,
+  #planets td { padding: 12px 12px; }
+
+  #planets img { width: 136px; height: 136px; }
+
+  #planets { font-size: 0.95rem; }
+}
