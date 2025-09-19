@@ -1,6 +1,7 @@
 body {
-    background-image: url("images/stardust.jpg");
-    background-position: center;
+  background-image:("images/stardust.jpg");
+  background-repeat: no repeat;
+  background-position: center;
 }
 h1{
 .doto-<uniquifier> {
