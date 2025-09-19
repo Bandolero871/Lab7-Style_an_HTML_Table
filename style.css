@@ -3,6 +3,19 @@ body {
   background-repeat: no repeat;
   background-position: center;
 }
+.welcome{
+  color:red;
+  font-size:50px;
+  position: center;
+  top: 20px;
+  right: 20px;
+  .domine-<uniquifier> {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 h1{
 .doto-<uniquifier> {
   font-family: "Doto", sans-serif;
@@ -16,8 +29,8 @@ h1{
 }
 
 .IMAGE img{
-  height:300px;
-  width:300px;
+  height:275px;
+  width:250px;
 }
 #planets{
   color:blue;
@@ -28,17 +41,6 @@ h1{
   font-style: normal;
   }
 }
-.welcome{
-  color:red;
-  font-size:50px;
-  position: center;
-  top: 20px;
-  right: 20px;
-  .domine-<uniquifier> {
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+
   
 }
