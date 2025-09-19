@@ -5,29 +5,30 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+  .domine-400 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 .welcome{
   color:red;
   font-size:50px;
   position: center;
   top: 20px;
   right: 20px;
-  .domine-<uniquifier> {
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 h1{
   font-family: "Doto", sans-serif;
   text-align: center;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
   font-size: 70px;
   font-variation-settings:
     "ROND" 0;
-  color: 19, 155, 209;
+  color: rgb(19, 155, 209);
 }
 
 .IMAGE img{
@@ -39,9 +40,11 @@ h1{
   color:blue;
   font-size:20px;
   .federo-regular {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
   font-family: "Federo", sans-serif;
   font-weight: 400;
   font-style: normal;
   }
-}
-}
