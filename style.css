@@ -1,5 +1,9 @@
 body {
-  background-image: url("solar.gif");
+  background-image: url("images/solar.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .welcome{
   color:red;
