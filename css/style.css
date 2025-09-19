@@ -1,60 +1,43 @@
-/* File: css/style.css — simplified colors */
+body {
+    background-image: url("images/solar.gif");
+    background-position: center;
+}
+h1{
+.doto-<uniquifier> {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 70px;
+  font-variation-settings:
+    "ROND" 0;
+}
+}
 
-html, body {
-.federo-regular {
+.IMAGE img{
+  height:300px;
+  width:300px;
+}
+#planets{
+  color:blue;
+  font-size:20px;
+  .federo-regular {
   font-family: "Federo", sans-serif;
   font-weight: 400;
   font-style: normal;
+  }
 }
-
-
-.box {
-  background-image: url("/images/stardust.png");
-  background-repeat: no repeat;
-  background-position: center;
+.welcome{
+  color:red;
+  font-size:50px;
+  position: center;
+  top: 20px;
+  right: 20px;
+  .domine-<uniquifier> {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
-
-h1 {
-  text-align: center;
-  margin: 32px 16px 20px;
-  font-size: 2rem;
-  color: white;
-}
-
-#planets {
-  width: 90%;
-  margin: 0 auto 48px;
-  border-collapse: collapse;
-  background: #222;
-  border: 1px solid #0000.5;
-}
-
-#planets th,
-#planets td {
-  padding: 20px 20px;
-  border: 1px solid #0000.5;
-  vertical-align: middle;
-}
-
-#planets th {
-  background: #444;
-  color: red;
-  text-align: left;
-}
-
-#planets img {
-  display: block;
-  width: 200px;   
-  height: 200px;
-  object-fit: contain;
-  margin: 4px auto;
-}
-
-@media (max-width: 720px) {
-  #planets th,
-  #planets td { padding: 12px 12px; }
-
-  #planets img { width: 200px; height: 200px; }
-
-  #planets { font-size: 0.95rem; }
+  
 }
