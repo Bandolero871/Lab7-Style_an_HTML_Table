@@ -43,6 +43,10 @@ planets td {
   vertical-align: center;
 }
 
+.planets tr:nth-child(even) td {
+  background: rgb(77, 76, 76);
+}
+
 .planets th {
   background: rgb(14, 13, 13);
   color: rgb(15, 184, 68)
