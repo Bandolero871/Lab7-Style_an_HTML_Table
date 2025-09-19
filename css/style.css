@@ -42,11 +42,11 @@ h2{
   vertical-align: center;
 }
 
-.planets th {
-  background: rgb(14, 13, 13);
-  color: rgb(15, 184, 68)
-  text-align: center-left;
-}
+/*.planets th {
+//  background: rgb(14, 13, 13);
+//  color: rgb(15, 184, 68)
+//  text-align: center-left;
+*/}
 
 .planets img {
   display: block;
