@@ -34,13 +34,13 @@ h2{
   border-collapse: collapse;
   background: rgb(40, 42, 43);
   border: 1px solid rgb(3, 3, 3);
-  font-color: rgb(74, 149, 181);
+  color: rgb(74, 149, 181);
 }
 
 /*
 .planets th,td {
-  padding: 14px 16px;
-  border: 1px solid rgb(140, 197, 222);
+  padding: 5px 10px;
+  border: 3px solid rgb(3, 3, 3);
   vertical-align: center;
 }
 
