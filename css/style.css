@@ -35,6 +35,7 @@ h1{
 #planets{
   text-align: center;
   color:blue;
+  white-space:normal;
   font-size:20px;
   .federo-regular {
     font-family: "Federo", sans-serif;
