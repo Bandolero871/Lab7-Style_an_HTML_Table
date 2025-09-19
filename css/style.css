@@ -36,8 +36,7 @@ h2{
   border: 1px solid rgb(179, 169, 157);
 }
 
-.planets th,
-planets td {
+.planets th,td {
   padding: 14px 16px;
   border: 1px solid rgb(18, 17, 17);
   vertical-align: center;
