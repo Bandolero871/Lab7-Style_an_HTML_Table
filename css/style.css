@@ -32,21 +32,24 @@ h2{
   width: 50%;
   margin: 0 auto 48px;
   border-collapse: collapse;
-  background: rgb(10, 10, 10);
-  border: 1px solid rgb(179, 169, 157);
+  background: rgb(40, 42, 43);
+  border: 1px solid rgb(3, 3, 3);
+  font-color: rgb(74, 149, 181);
 }
 
+/*
 .planets th,td {
   padding: 14px 16px;
   border: 1px solid rgb(140, 197, 222);
   vertical-align: center;
 }
 
-/*.planets th {
+.planets th {
 //  background: rgb(14, 13, 13);
 //  color: rgb(15, 184, 68)
 //  text-align: center-left;
-*/}
+}
+*/
 
 .planets img {
   display: block;
