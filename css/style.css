@@ -1,9 +1,5 @@
 body {
-  background-image: url(images/stardust.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url("images/stardust.jpg");
   background-color: #a2997c;}
 }
   .domine-400 {
