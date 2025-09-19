@@ -1,7 +1,8 @@
 body {
-  background-image: url("images/stardust.jpg");
+  background-image: url(images/solar.gif), url(images/stardust.jpg);
   background-color: #2f1994;
-  background-repeat: no-repeat;
+  background-position: right top, left top;
+  padding: 15px
   background-position: center;
   background-attachment: fixed;
 }
