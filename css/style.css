@@ -1,22 +1,24 @@
 body {
   background-image: url("images/stardust.jpg");
-  background-color: #a2997c;}
+  background-color: #2f1994;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
-  .domine-400 {
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.welcome{
+
+h1{
   color:red;
   font-size:50px;
   position: center;
   top: 20px;
   right: 20px;
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h1{
+h2{
   font-family: "Doto", sans-serif;
   text-align: center;
   font-optical-sizing: auto;
@@ -37,6 +39,7 @@ h1{
   color:blue;
   white-space:normal;
   font-size:20px;
+  line-height: 1.5;
   .federo-regular {
     font-family: "Federo", sans-serif;
     font-weight: 400;
