@@ -29,28 +29,24 @@ h2{
 }
 
 #planets {
-  width: 90%;
+  width: 50%;
   margin: 0 auto 48px;
   border-collapse: collapse;
   background: rgb(10, 10, 10);
-  border: 1px solid #rgb(179, 169, 157);
+  border: 1px solid rgb(179, 169, 157);
 }
 
 #planets th,
 #planets td {
   padding: 14px 16px;
-  border: 1px solid #rgb(18, 17, 17);
-  vertical-align: middle;
+  border: 1px solid rgb(18, 17, 17);
+  vertical-align: center;
 }
 
 #planets th {
   background: rgb(14, 13, 13);
   color: rgb(15, 184, 68)
-  text-align: left;
-}
-
-#planets tr:nth-child(even) td {
-  background: rgb(77, 76, 76);
+  text-align: center;
 }
 
 #planets tr:hover td {
@@ -59,7 +55,7 @@ h2{
 
 #planets img {
   display: block;
-  width: 184px;   /* doubled from original 92px */
+  width: 184px;
   height: 184px;
   object-fit: contain;
   margin: 4px auto;
