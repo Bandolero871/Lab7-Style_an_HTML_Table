@@ -9,11 +9,12 @@ body {
 h1{
   font-family: "Domine", serif;
   text-align: center;
-  color: rgb(145, 26, 10);
-  font-size:50px;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size:50px;
+  font-style: normal;
+  color: rgb(145, 26, 10);
 }
 
 h2{
@@ -38,7 +39,7 @@ h2{
   white-space:normal;
   font-size:20px;
   outline-style: double #2eaddb;
-  line-height: 1.5;
+  line-height: 2.5;
   .federo-regular {
     font-family: "Federo", sans-serif;
     font-weight: 400;
