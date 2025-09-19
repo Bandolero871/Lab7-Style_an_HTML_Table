@@ -33,19 +33,21 @@ h2{
   margin: 4 auto 48px;
   border-collapse: separate;
   border: 3px solid rgb(3, 3, 3);
+  color: rgb(74, 149, 181);
 }
 
 .planets th,td {
   padding: 5px 10px;
   border: 3px solid rgb(3, 3, 3);
+  color: rgb(74, 149, 181);
   vertical-align: center;
 }
 
 
 .planets th {
-//  background: rgb(14, 13, 13);
-//   color: rgb(74, 149, 181);
-//  text-align: center-left;
+  background: rgb(14, 13, 13);
+  color: rgb(74, 149, 181);
+  text-align: center-left;
 }
 
 .planets img {
