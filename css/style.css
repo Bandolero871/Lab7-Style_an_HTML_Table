@@ -28,7 +28,7 @@ h2{
   color: rgb(19, 155, 209);
 }
 
-#planets {
+.planets {
   width: 50%;
   margin: 0 auto 48px;
   border-collapse: collapse;
@@ -36,27 +36,23 @@ h2{
   border: 1px solid rgb(179, 169, 157);
 }
 
-#planets th,
-#planets td {
+.planets th,
+planets td {
   padding: 14px 16px;
   border: 1px solid rgb(18, 17, 17);
   vertical-align: center;
 }
 
-#planets th {
+.planets th {
   background: rgb(14, 13, 13);
   color: rgb(15, 184, 68)
   text-align: center;
 }
 
-#planets tr:hover td {
-  background: rgb(226, 135, 135);
-}
-
-#planets img {
+.planets img {
   display: block;
   width: 184px;
   height: 184px;
   object-fit: contain;
-  margin: 4px auto;
+  margin: 1px auto;
 }
