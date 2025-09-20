@@ -32,12 +32,10 @@ h2{
   margin: 4 auto 48px;
   border-collapse: separate;
   border: 3px solid rgb(3, 3, 3);
-  color: rgb(74, 149, 181);
 }
 
 .planets th{
   font-size: 75px;
-  color: rgb(74, 149, 181);
   text-align: center;
 }
 
@@ -45,6 +43,7 @@ h2{
   padding: 10px 10px;
   border: 5px solid rgb(3, 3, 3);
   vertical-align: center;
+  color: rgb(74, 149, 181);
 }
 
 .planets img{
