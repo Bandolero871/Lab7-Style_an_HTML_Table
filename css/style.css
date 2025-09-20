@@ -1,5 +1,6 @@
 body {
   background-IMAGE: url(images/solar.gif), url(images/stardust.jpg);
+  background-IMAGE: center, fit;
   background-color: #2f1994;
   background-position: right top, left top;
   padding: 15px
@@ -36,19 +37,17 @@ h2{
   color: rgb(74, 149, 181);
 }
 
-.planets th,td {
+.planets th {
+  font-size: 45px;
+  color: rgb(74, 149, 181);
+  text-align: center-left;
+}
+
+.planets td {
   padding: 10px 10px;
   border: 10px solid rgb(3, 3, 3);
   color: rgb(74, 149, 181);
   vertical-align: center;
-}
-
-
-.planets th {
-  background: rgb(3, 3, 3);
-  color: rgb(74, 149, 181);
-  text-align: center-left;
-}
 
 .planets img {
   display: block;
