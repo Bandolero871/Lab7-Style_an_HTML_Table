@@ -21,8 +21,8 @@ h2{
   font-family: "Doto", sans-serif;
   text-align: center;
   font-weight: 400;
-  font-style: normal;
-  font-size: 90px;
+  font-style: bold;
+  font-size: 100px;
   font-variation-settings: "ROND" 0;
   color: rgb(19, 155, 209);
 }
@@ -36,15 +36,14 @@ h2{
 }
 
 .planets th{
-  font-size: 45px;
+  font-size: 75px;
   color: rgb(74, 149, 181);
-  text-align: center-left;
+  text-align: center;
 }
 
 .planets th,td{
   padding: 10px 10px;
-  border: 10px solid rgb(3, 3, 3);
-  color: rgb(74, 149, 181);
+  border: 5px solid rgb(3, 3, 3);
   vertical-align: center;
 }
 
