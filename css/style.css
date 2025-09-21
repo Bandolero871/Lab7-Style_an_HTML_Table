@@ -1,10 +1,10 @@
 body {
-  background-IMAGE: url(images/solar.gif), url(images/stardust.jpg);
-  background-position: center;
-  background-position: fit;
-  background-position: right top, left top;
+  background-image: url("../images/solar.gif");
   background-color: rgb(47, 25, 148);
-  padding: 15px
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
 }
 
 h1{
@@ -27,31 +27,29 @@ h2{
   color: rgb(19, 155, 209);
 }
 
-.planets{
-  width: 50%;
-  margin: 4 auto 48px;
-  border-collapse: separate;
-  border: 3px solid rgb(3, 3, 3);
-}
-
-.planets th{
-  font-size: 75px;
-  text-align: center;
+.planets tr,th{
+  font-size: 35px;
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(163, 110, 36);
 }
 
 .planets th,td{
+  font-size: 25px;
   padding: 10px 10px;
-  border: 5px solid rgb(3, 3, 3);
-  font-size: 55px;
-  vertical-align: center;
-  color: rgb(74, 149, 181);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-style:  inset dotted;
+  border-color: #032345 #5ed40f;
+  border-width: 4px;
+  white-space: nowrap;
+  color: rgb(201, 45, 10);
+  text-align: center;
 }
 
 .planets img{
   display: block;
-  width: 184px;
-  height: 184px;
+  width: 190px;
+  height: 190px;
   object-fit: contain;
   margin: 1px auto;
 }
